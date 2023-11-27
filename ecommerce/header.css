@@ -1,0 +1,323 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,500&display=swap');
+
+.body{
+    background-color:white;
+    padding-bottom: 100%;
+    padding-top: 60px;
+
+
+}
+
+
+.header{
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(122, 217, 255);
+    justify-content: space-between;
+    border-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;  
+}
+.leftsection{
+    width:275px;
+    background-color: rgb(209, 214, 60);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(122, 217, 255);
+    
+    
+
+}
+.middlesection{
+    flex:1;
+    width: max-content;
+    background-color:rgb(122, 217, 255);
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+.rightsection{
+    width:200px;
+    background-color:rgb(122, 217, 255);
+    margin-left: 35px;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hamburger-menu{
+    height:40px;
+    width:40px;
+    color:white;
+    cursor: pointer;
+
+}
+.homemenu{
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color:black;
+    cursor: pointer;
+    font-weight: medium;
+ }
+ .webname{
+    font-size: 23px;
+    color:black;
+    margin-left: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    
+ }
+
+ .searchicon{
+    height: 25px;
+    width:30px;
+    color: blueviolet;
+ }
+ .searchbutton{
+    
+    margin-left: -3px;
+    height: 44px;
+    width:60px;
+    border-style: solid;
+    background-color: white;
+    border-color: black;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.10);
+    border-radius: 6px;
+    border-width: thin;
+    cursor: pointer;
+
+
+
+ }
+ .searchbar{
+    display: flex;
+    flex: 1;
+    height: 40px;
+    margin-left: 10px;
+    border-style: solid;
+    background-color: white;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.10);
+    border-radius: 6px;
+    font-size: 20px;
+    border-color:black;
+    border-width: thin;
+    width:0;
+    
+    
+}
+.searchbar:focus{
+    outline:none;
+}
+.searchbar::placeholder{
+    font-size: 20px;
+    color: rgb(105,105,105);
+    font-family: 'Roboto', sans-serif;
+    padding-left: 1px;
+}
+.voicesearchicon{
+    height:25px;
+    width:30px;
+    padding: 1px;
+}
+.voicebutton{
+    margin-left: 10px;
+    height: 45px;
+    width:50px;
+    background-color:white;
+    border-radius: 30px;
+    border-width: thin;
+    border-style:solid;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.10);
+    cursor: pointer;
+}
+.cartbutton{
+    height: 40px;
+    width:40px;
+    margin-left:40px;
+    cursor: pointer;
+}
+
+.userbutton{
+    height: 40px;
+    width:40px;
+    margin-left: 20px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.layouts{
+    display:grid;
+    grid-template-columns: 475px 475px 475px;
+    column-gap: 30px;
+    max-width: 100%;
+    height: 300px;
+    
+ 
+    
+  
+}
+
+
+.pet1,.pet2,.pet3,.pet4,.pet5,.pet6{
+    background-color: white;
+    height: 380px;
+    margin-top: 20px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+  
+   
+}
+.pet1image,.pet2image,.pet3image,.pet4image,.pet5image,.pet6image{
+    height:200px;
+    min-width: 10px;
+    width: 430px;
+    object-fit:contain;
+  
+
+ }
+    
+.pet1info,.pet2info,.pet4info,.pet3info,.pet5info,.pet6info{
+    background-color: white;
+    height:30px;
+    font-size: 25px;
+    font-family:'Roboto', sans-serif; 
+    font-weight: bold;
+    text-align: center;
+    color: rgb(26, 136, 180);
+    margin-top: -10px;
+    
+}
+.pet1lifeinfo,.pet2lifeinfo,.pet3lifeinfo,.pet4lifeinfo,.pet5lifeinfo,.pet6lifeinfo{
+    grid-template-rows: 1fr;
+    background-color: white;
+    font-family:'Roboto', sans-serif; 
+    font-weight:normal;
+    text-align: center;
+    font-size: 13px;
+    margin-top: -10px;
+    color:#353839;
+    opacity: 0.7;
+}
+.pet1details,.pet2details,.pet3details,.pet4details,.pet5details,.pet6details{
+    display:flex;
+    flex:1;
+    align-items: center;
+    margin-top: -3px;
+    height: 55px;
+    
+}
+.weightinfo-1,.weightinfo-2,.weightinfo-3,.weightinfo-4,.weightinfo-5,.weightinfo-6{
+  font-size: 14px;
+  font-family:'Roboto', sans-serif; 
+  font-weight: bold;
+  margin-left: 30px;
+  width: 48px;
+  height: 48px;
+  border-radius:50px;
+  border-style:none;
+  color: black;
+  background: rgb(190, 236, 253);
+  text-align: center;
+  opacity: 0.8;
+  margin-top: -16px;
+  align-items: center;
+  
+  
+}
+.weightinfo-1a,.weightinfo-2a,.weightinfo-3a,.weightinfo-4a,.weightinfo-5a,.weightinfo-6a{
+    font-size: 24px;
+    font-family:'Roboto', sans-serif; 
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: -9px;
+    width: 100px;
+    
+}
+.price-info,.price-info-pet2,.price-info-pet3,.price-info-pet4,.price-info-pet5,.price-info-pet6{
+    font-size: 24px;
+    font-family:'Roboto', sans-serif; 
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 3px;
+    width:100px;
+   
+    
+
+}
+.offer-info,.offer-info-pet2,.offer-info-pet3,.offer-info-pet4,.offer-info-pet5,.offer-info-pet6{
+    font-size: 17px;
+    font-family:'Roboto', sans-serif; 
+    font-weight: bold;
+    height:20px;
+    width:100px;
+    border-radius: 3px;
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    padding:2px;
+    margin-left: 10px;
+    
+
+
+}
+.priceinfo-pet1,.priceinfo-pet2,.priceinfo-pet3,.priceinfo-pet4,.priceinfo-pet5,.priceinfo-pet6{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height:48px;
+    justify-content: space-between;
+    
+}
+
+.viewbutton{
+    width: 125px;
+    height: 48px;
+    background-color: rgb(75, 184, 252);
+    color:black;
+    font-family:'Roboto', sans-serif; 
+    font-weight: medium;
+    font-size: medium;
+    cursor: pointer;
+    border:none;
+   
+}
+.buybutton{
+    width: 125px;
+    height: 48px;
+    margin-left: 38px;
+    font-family:'Roboto', sans-serif; 
+    font-weight: normal;
+    background-color: hsl(51, 100%, 50%);
+    border:none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+    font-size: medium;
+    border-radius: 9px;
+    cursor: pointer;
+    
+}
+.cartbutton1{
+    width: 125px;
+    height: 48px;
+    margin-left: 38px;
+    font-family:'Roboto', sans-serif; 
+    font-weight: normal;
+    border-color: rgb(12, 189, 88);
+    background-color: hsl(51, 100%, 50%);
+    border:none;
+    margin-right: 5px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+    font-size: medium;
+    border-radius: 9px;
+    cursor: pointer;
+    
+}
+
+
+
+
